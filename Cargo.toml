@@ -1,0 +1,17 @@
+[package]
+name = "glfw-ext"
+version = "0.1.0"
+edition = "2021"
+description = "GLFW utilities and extension methods"
+documentation = "https://docs.rs/glfw-ext"
+keywords = ["gl", "egl", "opengl", "khronos", "windowing"]
+categories = ["game-development", "graphics", "rendering"]
+repository = "https://github.com/vallentin/glfw-ext"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+glfw = "0.51"
+
+[package.metadata.docs.rs]
+cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
